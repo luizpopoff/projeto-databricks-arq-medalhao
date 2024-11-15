@@ -29,16 +29,16 @@ Este projeto demonstra a implementação da **Arquitetura Medalhão (Medallion A
 
 ## 📂 Estrutura do Repositório
 .
-├── bronze/             # Scripts para ingestão de dados brutos
-│   ├── bronze_ingestion.py
-│   └── raw_data/
-├── silver/             # Scripts para limpeza e transformação
-│   ├── silver_transformation.py
-│   └── standardized_data/
-├── gold/               # Scripts para análises e resultados
-│   ├── gold_analytics.py
-│   └── aggregated_data/
-└── README.md           # Documentação do projeto
+├── bronze/             # Scripts para ingestão de dados brutos  
+│   ├── bronze_ingestion.py  
+│   └── raw_data/  
+├── silver/             # Scripts para limpeza e transformação  
+│   ├── silver_transformation.py  
+│   └── standardized_data/  
+├── gold/               # Scripts para análises e resultados  
+│   ├── gold_analytics.py  
+│   └── aggregated_data/  
+└── README.md           # Documentação do projeto  
 
 Notebooks/      # Scipts  
   00_Config     # Scripts para geração do banco de dados  
