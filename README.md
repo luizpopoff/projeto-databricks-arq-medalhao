@@ -28,6 +28,13 @@ Este projeto demonstra a implementação da **Arquitetura Medalhão (Medallion A
    - Dados prontos para análise, agregações e cálculos específicos.
 
 ## 🛠️ Estrutura do Repositório  
+.
+├── Notebook/           # Scripts
+|   ├── bronze/             # Scripts para ingestão de dados brutos
+│   ├── silver/             # Scripts para limpeza e transformação
+│   ├── gold/               # Scripts para análises e resultados
+└── README.md           # Documentação do projeto
+
 Notebooks/      # Scipts  
   00_Config     # Scripts para geração do banco de dados  
   01_Bronze/    # Scripts para ingestão de dados brutos  
