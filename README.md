@@ -27,12 +27,17 @@ Este projeto demonstra a implementação da **Arquitetura Medalhão (Medallion A
 3. **Camada Gold**:  
    - Dados prontos para análise, agregações e cálculos específicos.
 
-## 🛠️ Estrutura do Repositório  
+## 📂 Estrutura do Repositório
 .
-├── Notebook/           # Scripts
-|   ├── bronze/             # Scripts para ingestão de dados brutos
-│   ├── silver/             # Scripts para limpeza e transformação
-│   ├── gold/               # Scripts para análises e resultados
+├── bronze/             # Scripts para ingestão de dados brutos
+│   ├── bronze_ingestion.py
+│   └── raw_data/
+├── silver/             # Scripts para limpeza e transformação
+│   ├── silver_transformation.py
+│   └── standardized_data/
+├── gold/               # Scripts para análises e resultados
+│   ├── gold_analytics.py
+│   └── aggregated_data/
 └── README.md           # Documentação do projeto
 
 Notebooks/      # Scipts  
