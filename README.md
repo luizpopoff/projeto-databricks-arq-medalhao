@@ -27,14 +27,14 @@ Este projeto demonstra a implementação da **Arquitetura Medalhão (Medallion A
 3. **Camada Gold**:  
    - Dados prontos para análise, agregações e cálculos específicos.
 
-## 🛠️ Estrutura do Repositório
-Notebooks/      # Scipts \**
-  00_Config     # Scripts para geração do banco de dados \**
-  01_Bronze/    # Scripts para ingestão de dados brutos \** 
-  02_Silver/    # Scripts para limpeza e transformação \**
-  03_Gold/      # Scripts para análises e resultados \**
-Dados/          #Dados utilizados para o projeto \**
-README.md     # Documentação do projeto
+## 🛠️ Estrutura do Repositório  
+Notebooks/      # Scipts  
+  00_Config     # Scripts para geração do banco de dados  
+  01_Bronze/    # Scripts para ingestão de dados brutos  
+  02_Silver/    # Scripts para limpeza e transformação  
+  03_Gold/      # Scripts para análises e resultados  
+Dados/          #Dados utilizados para o projeto  
+README.md     # Documentação do projeto  
 
-## Agradecimento
+## Agradecimento  
   EmpregaDados
